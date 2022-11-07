@@ -1,0 +1,130 @@
+[
+    {
+        "service_id": "01",
+        "title": "Bisnakandi",
+        "categories": "Programming Language",
+        "img": "https://sylhettouristplaces.com/wp-content/uploads/2020/02/Bisnakandi-6.jpg",
+        "service_duration": "1d",
+        "ratings": 5,
+        "price": 22,
+        "location_details": "Bichnakandi, also known as Bisnakandi, is a village in Rustompur Union, Gowainghat Upazila of Bangladesh's Sylhet District. In recent years, there has been an influx of tourists to its river.Bichnakandi is a quarry spot that is used to collect rocks from the riverbed. It is the place where many layers of the Khasi mountains from both sides meet at one point. Fountains from the Khasi Hills make a lake that is connected to Piyain River. The rocks are also natural and come down with water streams from the mountains. It is one of the most visited tourist spots in Bangladesh.[citation needed] This place is alongside Bangladesh-India border and has two tectonic plates on the verge of colliding.[citation needed] Geologist also have proved that these kinds of places in Earth have a high rate of earthquakes. Same can be told for Jaflong, Lalakhal, Manipur, and San Andreas Fault.",
+        "instructor": {
+            "guid_name": "Maurie Bellwood",
+            "instructor_img": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+            "total_visitors": 9979,
+            "published-date": "11/21/2021"
+        }
+    },
+    {
+        "service_id": "02",
+        "title": "Bhawal National Park",
+        "categories": "Programming Language",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Cute_Monkey.jpg/1280px-The_Cute_Monkey.jpg",
+        "service_duration": "1d",
+        "ratings": 5,
+        "price": 77,
+        "location_details": "Bhawal National Park was established and maintained as a National Park in 1974; it was officially declared in 1982 under the Wildlife Act of 1974. By origin, it was the forest of Madhupur under the rule of Bhawal Estate. It is located in Gazipur, Dhaka Division of Bangladesh, approximately 40 km north of Dhaka city, only 20 km drive from Gazipur and 20 km from Kapasia. The core area of the park covers 940 hectares (2,322 acres) but extends to 5,022 ha (12,409 acres) of surrounding forest. Its purpose is to protect important habitats as well as to provide opportunities for recreation. It has been kept under IUCN Management Category V, as a protected landscape. The most common flora is the unique coppice sal forest. The area was noted for peacocks, tiger, leopard, black panther, elephant, clouded leopard and sambar deer. However much of the wildlife had disappeared and only a few species remain. Also, most of the forest has been denuded and is now occupied by forestry companies or displaced people.Most of this area was covered by forests fifty years ago and the dominant species was Sal (Shorea robusta). Illegal deforestation has left only 600 km2 of the forest and new trees and woodlands have been planted.",
+        "instructor": {
+            "guid_name": "Abby Vanyushin",
+            "instructor_img": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png",
+            "total_visitors": 7486,
+            "published-date": "3/30/2022"
+        }
+    },
+    {
+        "service_id": "03",
+        "title": "Sajek",
+        "categories": "Programming Language",
+        "img": "https://c0.wallpaperflare.com/preview/754/182/389/blackbird-birds-of-bangladesh-bangladesh-nature.jpg",
+        "service_duration": "1d",
+        "ratings": 4,
+        "price": 50,
+        "location_details": "Sajek Tripuri Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District.[3] The valley is 2,000 feet (610 m) above sea level.[4] Sajek Tripuri Valley is known as the Queen of Hills & Roof of Rangamati.\n\n Sajek is a union located in the north of Chittagong Hill Tracts. It's under Baghaichori Upazila in Rangamati hill district, it is situated 67 kilometres (42 mi) north-east from Khagrachhari town and 95 kilometres (59 mi) north from Rangamati city. The border of Bangladesh and Mizoram of India is 8 kilometres (5.0 mi) east from Sajek.\n\nSajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. Many small rivers flow through the mountains among which the Kachalong and the Machalong are notable. On the way to Sajek valley, one has to cross the Mayni range and the Mayni river. The road to Sajek has high peaks and falls",
+        "instructor": {
+            "guid_name": "Shay Rudolph",
+            "instructor_img": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png",
+            "total_visitors": 9384,
+            "published-date": "9/7/2022"
+        }
+    },
+    {
+        "service_id": "04",
+        "title": "Tanguar Haor",
+        "categories": "Programming Language",
+        "img": "https://thefinancialexpress.com.bd/uploads/1516888105.jpg",
+        "service_duration": "1d",
+        "ratings": 5,
+        "price": 61,
+        "location_details": "Tanguar Haor , located in the Dharmapasha and Tahirpur upazilas of Sunamganj District in Bangladesh, is a unique wetland ecosystem of national importance and has come into international focus. The area of Tanguar Haor including 46 villages within the haor is about 100 square kilometres (39 sq mi) of which 2,802.36 ha2 is wetland. It is the source of livelihood for more than 40,000 people. Bangladesh declared it an Ecologically Critical Area in 1999 considering its critical condition as a result of overexploitation of its natural resources.\n\nEvery winter the haor is home to about 200 types of migratory birds. In 1999–2000, the government earned 7,073,184 takas as revenue just from fisheries of the haor. There are more than 140 species of fresh water fish in the haor. The more predominant among them are: ayir, Cat fish, baim, tara, gutum, gulsha, tengra, titna, garia, beti, kakia. Gulli, balua, ban tulsi, nalkhagra and other freshwater wetland trees are in this haor.\n\nPlant species like Hizol (Barringtonia acutangula), Clematis cadmia, Crataeva nurvala, Euryale ferox, Nelumbo nucifera, Ottelia alismoides, Oxystelma secamone var. secamone, Pongamia pinnata, Rosa clinophylla, and Typha species are present.",
+        "instructor": {
+            "guid_name": "Rodolph Antosch",
+            "instructor_img": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png",
+            "total_visitors": 6256,
+            "published-date": "7/12/2022"
+        }
+    },
+    {
+        "service_id": "05",
+        "title": "Himchori National Park",
+        "categories": "Programming Language",
+        "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/9a/3d/f1/the-bay-of-bengle-from.jpg?w=1200&h=-1&s=1",
+        "service_duration": "1d",
+        "ratings": 4,
+        "price": 71,
+        "location_details": "Himchari National Park  is a major national park and nature reserve in Bangladesh. The park is located at Ramu and Cox's Bazar Sadar Upazila, Cox's Bazar District, in the southeast region of the country. It is located mainly on the hills and is adjoining to Bay of Bengal to the west. Himchari National Park covers approximately 1,729 ha (17.29 km2) of mixed evergreen forests Biome. It was declared a protected area in 1980.\n\nIt is located 13 km East of Cox's Bazar town. The overall appearance of the forest is various patches of dense forest and grass lands. The climate is generally humid and warm. The park has tropical monsoons from June to September every year. The soil is loamy, clay and sandy loam at various places",
+        "instructor": {
+            "guid_name": "Fredia Ciccerale",
+            "instructor_img": "https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png",
+            "total_visitors": 8707,
+            "published-date": "3/31/2022"
+        }
+    },
+    {
+        "service_id": "06",
+        "title": "Sonarchor Wildlife Sanctuary",
+        "categories": "Programming Language",
+        "img": "https://www.lrbtravelteam.com/wp-content/uploads/2020/11/Soner-Char-1.png",
+        "service_duration": "1d",
+        "ratings": 4,
+        "price": 54,
+        "location_details": "Sonarchar Wildlife Sanctuary is a wildlife sanctuary located near Rangabali Upazila at Patuakhali District of Bangladesh. The area of the sanctuary is 2,026.48 ha (5,007.5 acres). It was officially declared as a wildlife sanctuary by the government of Bangladesh on 24 December 2011.\n\nIt is one of the safe zones for vultures as per the Vulture Safe Zone-2 Schedule of the government of Bangladesh in 2012.",
+        "instructor": {
+            "guid_name": "Fay Sapey",
+            "instructor_img": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+            "total_visitors": 5470,
+            "published-date": "9/19/2022"
+        }
+    },
+    {
+        "service_id": "07",
+        "title": "Sundarbans",
+        "categories": "Programming Language",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sundarban_Tiger.jpg",
+        "service_duration": "1d",
+        "ratings": 4,
+        "price": 54,
+        "location_details": "Sundarbans  is a mangrove area in the delta formed by the confluence of the Padma, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans the area from the Baleswar River in Bangladesh's division of Khulna to the Hooghly River in India's state of West Bengal. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels. Sundarbans is home to the world's largest area of mangrove forests. Four protected areas in the Sundarbans are enlisted as UNESCO World Heritage Sites, viz. Sundarbans West (Bangladesh), Sundarbans South (Bangladesh), Sundarbans East (Bangladesh) and Sundarbans National Park (India).\n\nThe Sundarbans freshwater swamp forests are a tropical moist broadleaf forest ecoregion of Bangladesh. It represents the brackish swamp forests that lie behind the Sundarbans Mangroves, where the salinity is more pronounced. The freshwater ecoregion is an area where the water is only slightly brackish and becomes quite fresh during the rainy season, when the freshwater plumes from the Ganges and the Brahmaputra rivers push the intruding salt water out and bring a deposit of silt. It covers 14,600 square kilometres (5,600 sq mi) of the vast Ganges-Brahmaputra Delta, extending from the northern part of Khulna District and finishing at the mouth of the Bay of Bengal with scattered portions extending into India's West Bengal state. The Sundarbans freshwater swamp forests lie between the upland Lower Gangetic plains moist deciduous forests and the brackish-water Sundarbans mangroves bordering the Bay of Bengal.\n\nThe Sundarbans Mangroves ecoregion on the coast forms the seaward fringe of the delta and is the world's largest mangrove ecosystem, with 20,400 square kilometres (7,900 sq mi) of an area covered. The dominant mangrove species Heritiera fomes is locally known as sundri or sundari. Mangrove forests are not home to a great variety of plants. They have a thick canopy, and the undergrowth is mostly seedlings of the mangrove trees. Besides the sundari, other tree species in the forest include Avicennia, Xylocarpus mekongensis, Xylocarpus granatum, Sonneratia apetala, Bruguiera gymnorhiza, Ceriops decandra, Aegiceras corniculatum, Rhizophora mucronata, and Nypa fruticans palms.[26] Twenty-six of the fifty broad mangrove species found in the world grow well in the Sundarbans. The commonly identifiable vegetation types in the dense Sundarbans mangrove forests are salt water mixed forest, mangrove scrub, brackish water mixed forest, littoral forest, wet forest and wet alluvial grass forests. The Bangladesh mangrove vegetation of the Sundarbans differs greatly from other non-deltaic coastal mangrove forests and upland forests associations. Unlike the former, the Rhizophoraceae are of minor importance.\n\nEcological succession is generally defined as the successive occupation of a site by different plant communities.[28] In an accreting mudflats the outer community along the sequence represents the pioneer community which is gradually replaced by the next community representing the seral stages and finally by a climax community typical of the climatic zone.[29] Robert Scott Troup suggested that succession began in the newly accreted land created by fresh deposits of eroded soil. The pioneer vegetation on these newly accreted sites is Sonneratia, followed by Avicennia and Nypa. As the ground is elevated as a result of soil deposition, other trees make their appearance. The most prevalent, though one of the late species to appear, is Excoecaria. As the level of land rises through accretion and the land is only occasionally flooded by tides, Heritiera fomes begins to appear",
+        "instructor": {
+            "guid_name": "Fay Sapey",
+            "instructor_img": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+            "total_visitors": 5470,
+            "published-date": "9/19/2022"
+        }
+    },
+    {
+        "service_id": "08",
+        "title": "Rema-kalenga Wildlife Sanctuary",
+        "categories": "Programming Language",
+        "img": "https://www.holidify.com/images/cmsuploads/compressed/tmp716685242059980801_20171011202214.jpg",
+        "service_duration": "1d",
+        "ratings": 4,
+        "price": 54,
+        "location_details": "Rema-Kalenga Wildlife Sanctuary is a protected forest and wildlife sanctuary in Bangladesh. This is a dry and evergreen forest .[1] It is located in the Chunarughat of Habiganj district. Rema-Kalenga Wildlife Sanctuary was established in 1982 and later expanded in 1996. Currently the wildlife sanctuary expands on an area of 1795.54 hectares as of 2009.[2] This is one of the natural forests in Bangladesh that are still in good condition. However, indiscriminate theft of trees & deforestation pose threat on the sanctuary.\n\nRema-Kalenga Wildlife Sanctuary is located in Chunarughat upazila of Habiganj. It is in very near to Srimangal of Moulvibazar district and adjacent to the Tripura border of India. The wildlife sanctuary is about 130 kilometers north-east of the capital Dhaka. It comprises four bits of Kalenga Forest Range of Habiganj District namely: Kalenga, Rema, Chanbari and Rashidpur.",
+        "instructor": {
+            "guid_name": "Fay Sapey",
+            "instructor_img": "https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png",
+            "total_visitors": 5470,
+            "published-date": "9/19/2022"
+        }
+    }
+]
