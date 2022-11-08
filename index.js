@@ -22,6 +22,11 @@ async function run() {
             const servicesData = await servicesCollection.find(query).toArray();
             res.send(servicesData);
         })
+        app.get('/services-limit', async (req, res) => {
+            const query = {};
+            const limitedServicesData = await servicesCollection.find(query).limit(3).toArray();
+            res.send(limitedServicesData);
+        })
 
         app.get('/services/:id', async (req, res) => {
             const id = req.params.id;
