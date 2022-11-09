@@ -16,7 +16,9 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
 
     try {
-        const servicesCollection = client.db('wildliaData').collection('services');
+        const servicesCollection = client.db('wildliaData').collection
+            ('services');
+        const reviewsCollection = client.db('wildliaData').collection('reviews');
         app.get('/services', async (req, res) => {
             const query = {};
             const servicesData = await servicesCollection.find(query).toArray();
@@ -33,6 +35,13 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const service = await servicesCollection.findOne(query);
             res.send(service);
+        })
+
+        // reviews api
+        app.post('/reviews', async (req, res) => {
+            const review = req.body;
+            const result = await reviewsCollection.insertOne(review);
+            res.send(result);
         })
     }
     finally {
