@@ -46,16 +46,32 @@ async function run() {
         app.post('/reviews', async (req, res) => {
             const review = req.body;
             const result = await reviewsCollection.insertOne(review);
-
             res.send(result);
         })
 
         app.get('/reviews', async (req, res) => {
-            const query = {};
-            const reviewData = await reviewsCollection.find(query).sort({ $natural: -1 }).limit(6).toArray();
+            let query = {};
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
+            const reviewData = await reviewsCollection.find(query).sort({ $natural: -1 }).toArray();
             res.send(reviewData);
 
         })
+
+        // app.get('/reviews', async (req, res) => {
+        //     let query = {};
+        //     if (req.query.email) {
+        //         query = {
+        //             email: req.query.email
+        //         }
+        //     }
+        //     const cursor = reviewsCollection.find(query);
+        //     const userReview = await cursor.toArray();
+        //     res.send(userReview);
+        // })
     }
     finally {
 
