@@ -28,6 +28,12 @@ async function run() {
             const servicesData = await servicesCollection.find(query).toArray();
             res.send(servicesData);
         })
+        app.post('/services', async (req, res) => {
+            const service = req.body;
+            const result = await servicesCollectionCollection.insertOne(service);
+            res.send(result);
+        })
+
         app.get('/services-limit', async (req, res) => {
             const query = {};
             const limitedServicesData = await servicesCollection.find(query).limit(3).toArray();
