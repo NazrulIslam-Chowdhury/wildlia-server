@@ -10,7 +10,11 @@ app.use(cors());
 app.use(express.json());
 
 
-const { response } = require('express');
+// const { response } = require('express');
+// const uri = `mongodb+srv://$:@cluster0.hnlrj23.mongodb.net/?retryWrites=true&w=majority`;
+
+
+
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.hnlrj23.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 async function run() {
@@ -27,6 +31,7 @@ async function run() {
         app.get('/services-limit', async (req, res) => {
             const query = {};
             const limitedServicesData = await servicesCollection.find(query).limit(3).toArray();
+
             res.send(limitedServicesData);
         })
 
@@ -41,7 +46,15 @@ async function run() {
         app.post('/reviews', async (req, res) => {
             const review = req.body;
             const result = await reviewsCollection.insertOne(review);
+
             res.send(result);
+        })
+
+        app.get('/reviews', async (req, res) => {
+            const query = {};
+            const reviewData = await reviewsCollection.find(query).sort({ $natural: -1 }).limit(6).toArray();
+            res.send(reviewData);
+
         })
     }
     finally {
