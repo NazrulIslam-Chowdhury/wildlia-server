@@ -6,15 +6,17 @@ const port = process.env.PORT || 5000;
 require('dotenv').config();
 
 // middleware
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3000'
+}));
 app.use(express.json());
 
 
-// const { response } = require('express');
+// 
 // const uri = `mongodb+srv://$:@cluster0.hnlrj23.mongodb.net/?retryWrites=true&w=majority`;
 
 
-
+const { response } = require('express');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.hnlrj23.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 async function run() {
@@ -30,7 +32,7 @@ async function run() {
         })
         app.post('/services', async (req, res) => {
             const service = req.body;
-            const result = await servicesCollectionCollection.insertOne(service);
+            const result = await servicesCollection.insertOne(service);
             res.send(result);
         })
 
